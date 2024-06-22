@@ -1,24 +1,18 @@
-import datetime
-# age = int(input("Enter age: "))
-# hah = 19
+# Define your main dictionary
+my_data = {
+  "africans": ["apple", "banana", "tallpeople"]
+  # You can add more key-value pairs here (e.g., "asians": [...])
+}
 
-# if age > hah:
-#     print("welcome")
-# else:
-#     print("You're not allowed")
+# Get user input (converted to lowercase for case-insensitive comparison)
+user_input = input("Enter a key from the data: ").lower()
 
-current_time = datetime.datetime.now()
-
-current_day = current_time.year
-
-a = int(input("what is your age?"))
-b = int(input("what age would you like to retire?"))
-
-c = a - b 
-d = current_day + b
-if a == b:
-    print("YOU CAN RETIRE NOW!!!")
-elif a > b:
-    print("PLEASE DO THIS PROPERLY!!!")
+# Check if user input matches a key in the dictionary
+if user_input in my_data:
+  # Access the corresponding list and print its elements
+  selected_data = my_data[user_input]
+  print(f"The elements in '{user_input}' are:")
+  for item in selected_data:
+    print(item)
 else:
-    print (f"you have {c} years left until you retire.\n you can retire in {d}")
+  print(f"Key '{user_input}' not found in the data.")

@@ -26,6 +26,6 @@ try:
       print("PLEASE SELECT A CATEGROY")
    
 except:
-   print("PLEASE SELECT A CATEGROY")     
+   print("how did we get here? ")     
 
 

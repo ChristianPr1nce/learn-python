@@ -1,16 +1,31 @@
 try:
    africans = ["nigga", "criminal", "tall", "slave", "biggestdicksize"]
-   westernpeople = ["rich, colonizer, white, averagedicksize"]
-   easternpeople = ["masterofmath, smalleyes, decentwealth, firstcivilization, smallestdick"]
+   westernpeople = ["rich", 'colonizer', 'white', 'averagedicksize']
+   easternpeople = ["masterofmath", "smalleyes", 'decentwealth', 'firstcivilization', 'smallestdick']
    
-   names = input("\n africans \n westernpeople \n eastern people \n Select A Category")
+   name = input("\n africans \n westernpeople \n eastern people \n Select A Category:")
+
+  # check if name == africans:
+   # print africans
+   if name == "africans":
+      for niggers in africans:
+         print(niggers)
    
-   for blacks in africans:
-      if names == blacks:
-         print(africans)
+   # check if name == westernpeople:
+   #  print westernpeople
+   elif name == "westernpeople":
+      for anglosaxons in westernpeople:
+         print(anglosaxons)
    
-
-
-
+   # check if name == easternpeople:
+   # print easternpeople
+   elif name == "easternpeople":
+      for yellowmonkeyas in easternpeople:
+         print(yellowmonkeyas)
+   else:
+      print("PLEASE SELECT A CATEGROY")
+   
 except:
-   print("PLEASE SELECT A CATEGROY")
+   print("PLEASE SELECT A CATEGROY")     
+
+

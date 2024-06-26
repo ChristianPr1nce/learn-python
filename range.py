@@ -7,19 +7,19 @@ try:
 
   # check if name == africans:
    # print africans
-   if name == "africans":
+   if name.lower() == "africans":
       for niggers in africans:
          print(niggers)
    
    # check if name == westernpeople:
    #  print westernpeople
-   elif name == "westernpeople":
+   elif name.lower() == "westernpeople":
       for anglosaxons in westernpeople:
          print(anglosaxons)
    
    # check if name == easternpeople:
    # print easternpeople
-   elif name == "easternpeople":
+   elif name.lower() == "easternpeople":
       for yellowmonkeyas in easternpeople:
          print(yellowmonkeyas)
    else:

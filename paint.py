@@ -4,8 +4,7 @@ try:
    squarefeet = length * width
    paint = 350
    gallon = squarefeet / paint
-   >>> round(gallon)
-   
-   print(f"you will need {gallon} gallons of \n paint to cover {squarefeet} squarefeet")
+
+   print(f"you will need {round(gallon)} gallons of \n paint to cover {squarefeet} squarefeet")
 except:
    print("PLEASE ONLY ADD NUMBERS") 

@@ -6,6 +6,7 @@ try:
     price3 = int(input("enter the price of item 3:"))
     quantity3 = int(input("enter the quantity of item 3:"))
 
+    subtotal = pricequantity + price2quantity + price3quantity
     #tax = 5.5%
     #pricequantity = price * quantity 
     #price2quantity = price2 * quantity2
